@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de Satisfação</h1>
+        <h2>Dados pessoais:</h2>
+        <form action="pagina-destino.html" method="POST">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Seu nome" id="nome">
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Seu e-mail" id="email">
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="number" placeholder="Seu telefone" id="telefone">
+            </p>
+            <h2>Responda:</h2>
+            <p>
+                Produto comprado:
+                <select>
+                    <option>iPhone SE</option>
+                    <option>iPhone 14</option>
+                    <option>iPhone 15</option>
+                    <option>iPhone 16</option>
+                    <option>iPhone 16 Pro</option>
+                </select>
+            </p>
+            <p>
+                Como você classifica nosso atendimento?
+                <input type="radio" id="0" name="nota">
+                <label for="0">0</label>
+                <input type="radio" id="1" name="nota">
+                <label for="0">1</label>
+                <input type="radio" id="2" name="nota">
+                <label for="0">2</label>
+                <input type="radio" id="3" name="nota">
+                <label for="0">3</label>
+                <input type="radio" id="4" name="nota">
+                <label for="0">4</label>
+                <input type="radio" id="5" name="nota">
+                <label for="0">5</label>
+            </p>
+            <p>
+                Você recomendaria nosso atendimento a um amigo?
+                <input type="radio" id="sim" name="recomendação">
+                <label for="recomendação">Sim</label>
+                <input type="radio" id="nao" name="recomendação">
+                <label for="recomendação">Não</label>
+            </p>
+            <p>
+                <input type="checkbox" id="compartilhamento" />
+                <label for="compartilhamento">Autorizo o compartilhamento das respostas com terceiros.</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </body>
+</html>
